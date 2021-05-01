@@ -16,7 +16,7 @@ public class HoldAt20PigPlayer implements PigPlayer {
         {
             return true;
         }
-        if(myScore >= GOAL_SCORE || (myScore%20)==0 )
+        if(myScore >= 20 )
         {
             return false;
         } else {

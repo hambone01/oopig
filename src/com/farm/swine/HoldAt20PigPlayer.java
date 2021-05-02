@@ -12,11 +12,7 @@ public class HoldAt20PigPlayer implements PigPlayer {
                              int otherScore,
                              int turnTotal)
     {
-        if(myScore == 0)
-        {
-            return true;
-        }
-        if(myScore >= 20 )
+        if(turnTotal >= 20 )
         {
             return false;
         } else {

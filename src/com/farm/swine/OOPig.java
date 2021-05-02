@@ -23,7 +23,6 @@ public class OOPig {
             pigGame = new PigGame(new HoldAt20PigPlayer(),new UserPigPlayer());
         }
 
-        System.out.println("Enter nothing to roll; enter anything to hold.");
         pigGame.play();
     }
 }

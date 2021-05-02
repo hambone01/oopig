@@ -8,6 +8,7 @@ public class UserPigPlayer implements PigPlayer {
 
 
     public UserPigPlayer() {
+        System.out.println("Enter nothing to roll; enter anything to hold.");
     }
     /**
      *
